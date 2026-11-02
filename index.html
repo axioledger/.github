@@ -4,70 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AXIOLEDGER ENTERPRISE - 32-Episode AI Ecosystem & Macro Engine</title>
-    <!-- Tailwind CSS with custom theme mapping matching Axioledger Design System -->
+    <!-- Tailwind CSS and custom theme -->
+    <script src="js/tailwind.config.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        axio: {
-                            50: '#f0fdf4',
-                            100: '#dcfce7',
-                            500: '#49DBC8',
-                            600: '#16a34a',
-                            700: '#15803d',
-                            900: '#14532d',
-                            950: '#052e16',
-                        },
-                        cyber: {
-                            dark: '#121318',
-                            card: '#1A1C23',
-                            border: '#2B2E38',
-                            accent: '#49DBC8',
-                            greeny: '#BEFF6C',
-                            purple: '#AF96FB',
-                            gold: '#FFF172',
-                            pink: '#FD9FDD'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['Work Sans', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
     <!-- Font Work Sans & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        body { font-family: 'Work Sans', sans-serif; background-color: #121318; color: #F4F5F7; }
-        .glass-panel {
-            background: rgba(26, 28, 35, 0.85);
-            backdrop-filter: blur(16px);
-            border: 1px solid rgba(73, 219, 200, 0.15);
-        }
-        .neon-glow {
-            box-shadow: 0 0 25px -5px rgba(73, 219, 200, 0.3);
-        }
-        .neon-green-glow {
-            box-shadow: 0 0 25px -5px rgba(190, 255, 108, 0.3);
-        }
-        .comic-card {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .comic-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 30px -10px rgba(73, 219, 200, 0.4);
-            border-color: rgba(73, 219, 200, 0.4);
-        }
-        ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: #121318; }
-        ::-webkit-scrollbar-thumb { background: #2B2E38; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #49DBC8; }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-cyber-dark text-slate-100 min-h-screen flex flex-col selection:bg-cyber-accent selection:text-cyber-dark">
 
